@@ -9287,6 +9287,17 @@
         "tslib": "^2.3.0",
       },
     },
+    "packages/pieces/community/textkit": {
+      "name": "@activepieces/piece-textkit",
+      "version": "0.0.1",
+      "dependencies": {
+        "@activepieces/pieces-common": "workspace:*",
+        "@activepieces/pieces-framework": "workspace:*",
+      },
+      "devDependencies": {
+        "tslib": "2.6.2",
+      },
+    },
     "packages/pieces/community/thankster": {
       "name": "@activepieces/piece-thankster",
       "version": "0.1.8",
@@ -12833,6 +12844,8 @@
     "@activepieces/piece-text-helper": ["@activepieces/piece-text-helper@workspace:packages/pieces/core/text-helper"],
 
     "@activepieces/piece-textcortex-ai": ["@activepieces/piece-textcortex-ai@workspace:packages/pieces/community/textcortex-ai"],
+
+    "@activepieces/piece-textkit": ["@activepieces/piece-textkit@workspace:packages/pieces/community/textkit"],
 
     "@activepieces/piece-thankster": ["@activepieces/piece-thankster@workspace:packages/pieces/community/thankster"],
 

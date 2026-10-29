@@ -1414,6 +1414,9 @@
       "@activepieces/piece-textcortex-ai": [
         "packages/pieces/community/textcortex-ai/src/index.ts"
       ],
+      "@activepieces/piece-textkit": [
+        "packages/pieces/community/textkit/src/index.ts"
+      ],
       "@activepieces/piece-thankster": [
         "packages/pieces/community/thankster/src/index.ts"
       ],
